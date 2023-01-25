@@ -1,0 +1,229 @@
+:root{
+--primari-font-family: 'Roboto', sans-serif;
+--secondary-font-family: 'Raleway', sans-serif;
+--primary-text-color-studio: #212121;
+--secondary-text-color-studio: #757575;
+--hover_focus-color:#2196F3;
+--section-secondary-color: #F5F4FA;
+--section-main-color: #2F303A;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    font-family: var(--primari-font-family);
+    color: var(--primary-text-color-studio);
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: var(--secondary-font-family) ;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: #000000;
+}
+.logo-start {
+    color: var(--hover_focus-color);
+
+}
+
+.nav-list-link{
+    color: var(--primary-text-color-studio);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-list-link:hover,
+.nav-list-link:focus,
+.visited_studio:visited,
+.visited_portfolio:visited
+{
+    color: var(--hover_focus-color);
+}
+ 
+.contact-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-text-color-studio);
+
+}
+.contact-header:hover,
+.contact-header:focus  {
+color: #2196F3;
+}
+.modal-btn{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background-color: #188CE8;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+.section-main{
+    background-color: var(--section-main-color);
+}
+.main-title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+.main-description{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+}
+.main-sub-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+}
+.section-secondary{
+    
+background-color: var(--section-secondary-color);
+}
+.about-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color-studio);
+
+}
+.name-img{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+}
+
+.about-img{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color-studio);
+       
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+.footer{
+    background-color: var(--section-main-color); 
+}
+.contact-futer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+             
+        color: rgba(255, 255, 255, 0.6);
+
+}
+/* ==============START PORTFOLIO============== */
+
+.portfolio-name-img{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color-studio);
+}
+.portfolio-about-img{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color-studio);
+    
+}
+
+.contact-futer-addres{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contact-futer:hover,
+.contact-futer:focus,
+.contact-futer-addres:hover,
+.contact-futer-addres:focus {
+    color: var(--hover_focus-color);
+}
+
+.portfolio-butn{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+       
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        background-color: var(--section-secondary-color);
+        
+
+}
+.portfolio-butn:hover,
+.portfolio-butn:focus
+ { background: var(--hover_focus-color);
+    color: #ffffff;
+ }
+/* ==============END PORTFOLIO============== */
