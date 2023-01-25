@@ -7,6 +7,11 @@
 --section-secondary-color: #F5F4FA;
 --section-main-color: #2F303A;
 }
+
+body {
+    font-family: var(--primari-font-family);
+    color: var(--primary-text-color-studio);
+}
 h1,
 h2,
 h3,
@@ -17,9 +22,17 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-body {
-    font-family: var(--primari-font-family);
-    color: var(--primary-text-color-studio);
+ul,
+ol{
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+img{
+    display: block;
+}
+address{
+    font-style: normal ;
 }
 .list{
     list-style: none;
@@ -27,7 +40,30 @@ body {
 .link{
     text-decoration: none;
 }
-
+.container{
+    width: 1200;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+}
+.nav-list,
+.list-addr{
+    display: flex;
+    align-items: center;
+}
 .logo{
     font-family: var(--secondary-font-family) ;
         font-style: normal;
@@ -35,7 +71,7 @@ body {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-    
+        margin-right: 92px;
         color: #000000;
 }
 .logo-start {
@@ -51,6 +87,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.nav-list-item:not(:last-child){
+margin-right: 50px;
+}
+
 .nav-list-link:hover,
 .nav-list-link:focus,
 .visited_studio:visited,
@@ -73,21 +113,37 @@ body {
 .contact-header:focus  {
 color: #2196F3;
 }
+.contact-number{
+    margin-left: 50px;
+}
 .modal-btn{
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
+        /* border: 1px solid var(--hover_focus-color); */
+        width: 50;
+        height: 216;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 32px; 
+        display: flex; 
         
-        display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        background-color: #188CE8;
+        background-color: var(--hover_focus-color);
         color: #FFFFFF;
         cursor: pointer;
 }
+.modal-btn:active{
+    background-color: #188CE8;
+}
 .section-main{
+   padding-top: 200px;
+    padding-bottom: 200px;
+   
     background-color: var(--section-main-color);
 }
 .main-title{
@@ -109,6 +165,12 @@ color: #2196F3;
         text-align: center;
         letter-spacing: 0.03em;
     
+}
+.list-main-description{
+    display:flex;
+}
+.list-main-description-item:not(:last-child){
+    margin-right: 30px;
 }
 .main-sub-title{
         font-style: normal;
