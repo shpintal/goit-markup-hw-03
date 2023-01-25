@@ -56,6 +56,9 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.main-description{
+    margin-bottom: 50px;
+}
 .navigation{
     display: flex;
 }
@@ -127,6 +130,7 @@ color: #2196F3;
         border-radius: 4px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 30px;
         padding: 10px 32px; 
         display: flex; 
         
@@ -169,6 +173,14 @@ color: #2196F3;
 .list-main-description{
     display:flex;
 }
+.description-preference{
+    padding-top: 94px;
+  
+}
+.description-preference-wrap{
+justify-self: center;
+}
+
 .list-main-description-item:not(:last-child){
     margin-right: 30px;
 }
@@ -196,6 +208,32 @@ background-color: var(--section-secondary-color);
     color: var(--secondary-text-color-studio);
 
 }
+.work-list{
+    
+    display: flex;
+}
+.work-card:not(last-child){
+margin-right: 30px;
+}
+.work-list-wrap{
+   
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+.our-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.our-team-item:not(:last-child){
+margin-right: 30px;
+
+}
+.list-our-team{
+display: flex;
+
+}
+
 .name-img{
         font-style: normal;
         font-weight: 500;
@@ -203,25 +241,34 @@ background-color: var(--section-secondary-color);
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
-    
+        margin-bottom: 10px;
+
 }
 
 .about-img{
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.19px;
+        line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
     
         color: var(--secondary-text-color-studio);
        
+      
+       
+}
+.description-emploer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
 }
 .logo-footer {
     color: #FFFFFF;
 }
 .footer{
     background-color: var(--section-main-color); 
+    padding-top: 60px;
 }
 .contact-futer {
         font-style: normal;
