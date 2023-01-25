@@ -34,6 +34,10 @@ img{
 address{
     font-style: normal ;
 }
+section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .list{
     list-style: none;
 }
@@ -174,7 +178,7 @@ color: #2196F3;
     display:flex;
 }
 .description-preference{
-    padding-top: 94px;
+ 
   
 }
 .description-preference-wrap{
@@ -217,13 +221,11 @@ margin-right: 30px;
 }
 .work-list-wrap{
    
-    padding-top: 94px;
-    padding-bottom: 94px;
+   
 
 }
 .our-team{
-    padding-top: 94px;
-    padding-bottom: 94px;
+   
 }
 .our-team-item:not(:last-child){
 margin-right: 30px;
