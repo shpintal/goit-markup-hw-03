@@ -47,7 +47,7 @@ section{
     text-decoration: none;
 }
 .container{
-    width: 1200;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -221,12 +221,13 @@ background-color: var(--section-secondary-color);
 .work-list{
     
     display: flex;
+    justify-content: center;
 }
 .work-card:not(:last-child){
 margin-right: 30px;
 }
 .work-list-wrap{
-   
+   justify-content: center;
    
 
 }
@@ -312,7 +313,7 @@ display: flex;
 }
 .portfolio-list-works{
     display: flex;
-
+    flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
@@ -348,6 +349,7 @@ display: flex;
     display: flex;
     justify-self: end;
     margin-bottom: 60px;
+    justify-content: center;
 }
 .portfolio-butn:hover,
 .portfolio-butn:focus
