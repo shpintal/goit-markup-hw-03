@@ -30,6 +30,8 @@ padding-left: 0;
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 address{
     font-style: normal ;
@@ -52,6 +54,10 @@ section{
     margin-right: auto;
 }
 header{
+    border: 1px solid #ECECEC;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -216,7 +222,7 @@ background-color: var(--section-secondary-color);
     
     display: flex;
 }
-.work-card:not(last-child){
+.work-card:not(:last-child){
 margin-right: 30px;
 }
 .work-list-wrap{
@@ -225,7 +231,7 @@ margin-right: 30px;
 
 }
 .our-team{
-   
+   background-color: #2196F3;
 }
 .our-team-item:not(:last-child){
 margin-right: 30px;
@@ -291,6 +297,8 @@ display: flex;
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--primary-text-color-studio);
+        margin-bottom: 4px;
+        margin-top: 20px;
 }
 .portfolio-about-img{
         font-style: normal;
@@ -300,18 +308,19 @@ display: flex;
         letter-spacing: 0.03em;
     
         color: var(--secondary-text-color-studio);
-    
+    padding-bottom: 20px;
+}
+.portfolio-list-works{
+    display: flex;
+
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.portfolio-list-works-item{
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
-.contact-futer-addres{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
 .contact-futer:hover,
 .contact-futer:focus,
 .contact-futer-addres:hover,
@@ -324,6 +333,9 @@ display: flex;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
+        padding: 6px 22px; 
+        margin-right: 8px;
+       border-radius: 4px; 
        
         text-align: center;
         letter-spacing: 0.03em;
@@ -332,9 +344,24 @@ display: flex;
         
 
 }
+.list-buttom{
+    display: flex;
+    justify-self: end;
+    margin-bottom: 60px;
+}
 .portfolio-butn:hover,
 .portfolio-butn:focus
  { background: var(--hover_focus-color);
     color: #ffffff;
+ }
+
+ .contact-futer-addres {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
  }
 /* ==============END PORTFOLIO============== */
