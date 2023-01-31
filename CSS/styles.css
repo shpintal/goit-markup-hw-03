@@ -366,7 +366,6 @@ margin-right: 8px;
 }
 .list-buttom{
     display: flex;
-    /* justify-self: end; */
     margin-bottom: 56px;
     justify-content: center;
 }
@@ -378,6 +377,7 @@ margin-right: 8px;
  .card-portfolio{
 padding: 20px 24px;
 border: 1px solid #eeeeee ;
+border-top: none;
  }
  
 
