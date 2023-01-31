@@ -36,7 +36,7 @@ img{
 address{
     font-style: normal ;
 }
-section{
+.section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -54,12 +54,7 @@ section{
     margin-right: auto;
 }
 header{
-    border: 1px solid #ECECEC;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-container{
     display: flex;
@@ -86,6 +81,10 @@ header{
         letter-spacing: 0.03em;
         margin-right: 92px;
         color: #000000;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
 }
 .logo-start {
     color: var(--hover_focus-color);
@@ -99,6 +98,10 @@ header{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: block;
+     padding-top: 32px;
+    padding-bottom: 32px; 
+    
 }
 .nav-list-item:not(:last-child){
 margin-right: 50px;
@@ -120,6 +123,8 @@ margin-right: 50px;
     letter-spacing: 0.02em;
 
     color: var(--secondary-text-color-studio);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 .contact-header:hover,
@@ -134,9 +139,6 @@ color: #2196F3;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
-        /* border: 1px solid var(--hover_focus-color); */
-        width: 50;
-        height: 216;
         border-radius: 4px;
         margin-left: auto;
         margin-right: auto;
@@ -155,8 +157,8 @@ color: #2196F3;
     background-color: #188CE8;
 }
 .section-main{
-   padding-top: 200px;
-    padding-bottom: 200px;
+   /* padding-top: 200px; */
+    padding-bottom: -84px;
    
     background-color: var(--section-main-color);
 }
@@ -168,7 +170,7 @@ color: #2196F3;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-    
+        justify-items: center;
         color: #FFFFFF;
 }
 .main-description{
@@ -180,20 +182,27 @@ color: #2196F3;
         letter-spacing: 0.03em;
     
 }
+.visually-hidden {
+    visibility: hidden;
+}
 .list-main-description{
     display:flex;
 }
 .description-preference{
  
-  
+  padding-bottom: 0;
 }
 .description-preference-wrap{
 justify-self: center;
+}
+.list-main-description-item {
+    width: 270px;
 }
 
 .list-main-description-item:not(:last-child){
     margin-right: 30px;
 }
+
 .main-sub-title{
         font-style: normal;
         font-weight: 700;
@@ -201,6 +210,7 @@ justify-self: center;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-bottom: 10px;
     
 }
 .section-secondary{
@@ -221,10 +231,13 @@ background-color: var(--section-secondary-color);
 .work-list{
     
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+
 }
+
 .work-card:not(:last-child){
 margin-right: 30px;
+
 }
 .work-list-wrap{
    justify-content: center;
@@ -272,10 +285,12 @@ display: flex;
 }
 .logo-footer {
     color: #FFFFFF;
+    margin-bottom: 28px;
 }
 .footer{
     background-color: var(--section-main-color); 
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .contact-futer {
         font-style: normal;
@@ -287,6 +302,9 @@ display: flex;
         color: rgba(255, 255, 255, 0.6);
 
 }
+.futer-adress-item{
+    margin-bottom: 12px;
+}
 /* ==============START PORTFOLIO============== */
 
 .portfolio-name-img{
@@ -297,7 +315,7 @@ display: flex;
         letter-spacing: 0.06em;
         color: var(--primary-text-color-studio);
         margin-bottom: 4px;
-        margin-top: 20px;
+       
 }
 .portfolio-about-img{
         font-style: normal;
@@ -307,7 +325,7 @@ display: flex;
         letter-spacing: 0.03em;
     
         color: var(--secondary-text-color-studio);
-    padding-bottom: 20px;
+
 }
 .portfolio-list-works{
     display: flex;
@@ -333,7 +351,7 @@ display: flex;
         font-size: 16px;
         line-height: 1.63;
         padding: 6px 22px; 
-        margin-right: 8px;
+        
        border-radius: 4px; 
        
         text-align: center;
@@ -343,10 +361,13 @@ display: flex;
         
 
 }
+.list-buttom-item:not(:last-child){
+margin-right: 8px;
+}
 .list-buttom{
     display: flex;
-    justify-self: end;
-    margin-bottom: 60px;
+    /* justify-self: end; */
+    margin-bottom: 56px;
     justify-content: center;
 }
 .portfolio-butn:hover,
@@ -354,6 +375,11 @@ display: flex;
  { background: var(--hover_focus-color);
     color: #ffffff;
  }
+ .card-portfolio{
+padding: 20px 24px;
+border: 1px solid #eeeeee ;
+ }
+ 
 
  .contact-futer-addres {
      font-style: normal;
