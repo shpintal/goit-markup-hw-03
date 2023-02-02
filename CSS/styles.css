@@ -66,6 +66,7 @@ header{
 }
 .navigation{
     display: flex;
+    align-items: center;
 }
 .nav-list,
 .list-addr{
@@ -82,9 +83,6 @@ header{
         margin-right: 92px;
         color: #000000;
         display: block;
-        padding-top: 32px;
-        padding-bottom: 32px;
-
 }
 .logo-start {
     color: var(--hover_focus-color);
@@ -159,17 +157,21 @@ color: #2196F3;
 .section-main{
 
     background-color: var(--section-main-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .main-title{
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
+        max-width: 696px;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         justify-items: center;
         margin-bottom: 40px;
+        margin: 0 auto;
         color: #FFFFFF;
        
 }
@@ -182,11 +184,7 @@ color: #2196F3;
         letter-spacing: 0.03em;
     
 }
-.main-section-wrapp{
-padding-top: 200px;
-padding-bottom: 210px;
 
-}
 .visually-hidden {
     visibility: hidden;
 }
@@ -307,13 +305,13 @@ display: flex;
         color: rgba(255, 255, 255, 0.6);
 
 }
-.futer-adress-item{
+.futer-adress-item:not(:last-child){
     margin-bottom: 12px;
 }
 /* ==============START PORTFOLIO============== */
 
 .portfolio-name-img{
-        font-style: normal;
+        font-style: normal;f
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -371,7 +369,7 @@ margin-right: 8px;
 }
 .list-buttom{
     display: flex;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 .portfolio-butn:hover,
